@@ -21,7 +21,12 @@ namespace demo
         static void basic()
         {
             //hello world
-            Console.WriteLine("Hello World!");
+            Console.Write("Enter ID:");
+            int id = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello World!" + " " +id+" " + name);
+
         }
 
     }
