@@ -6,7 +6,7 @@ namespace demo
     {
         static void Main(string[] args)
         {           
-            Console.WriteLine("Enter number:");
+            Console.Write("Enter number:");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Number is: " + n);
             if (n == 1)
@@ -20,6 +20,7 @@ namespace demo
         }
         static void basic()
         {
+            //hello world
             Console.WriteLine("Hello World!");
         }
 
